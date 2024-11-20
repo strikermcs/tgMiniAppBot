@@ -1,5 +1,6 @@
-import { Telegraf, Markup } from "telegraf";
-import 'dotenv/config'
+const { Telegraf, Markup } = require('telegraf');
+
+require('dotenv').config()
 
 const token = process.env.TELEGRAM_BOT_TOKEN
 const webAppUrl = process.env.TELEGRAM_MINI_APP_URL
